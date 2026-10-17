@@ -19,6 +19,7 @@ The project demonstrates the practical integration of microcontrollers, sensors,
 - [Key Features](#-key-features)
 - [Hardware Components](#-hardware-components)
 - [Circuit Connections](#-circuit-connections)
+- [Wiring Diagram](#-wiring-diagram)
 - [Touch Controls](#-touch-controls)
 - [Display Modes](#-display-modes)
 - [Wi-Fi and Time Synchronization](#-wi-fi-and-time-synchronization)
@@ -122,6 +123,16 @@ Both modules share the same I²C bus.
 All modules must use compatible supply voltages and a common ground.
 
 **Electrical safety:** ESP32-C3 GPIO pins are not 5 V tolerant. Verify the supply voltage, logic levels, and I²C pull-up voltages of all connected modules before powering the circuit.
+
+## 🔌 Wiring Diagram
+
+The following wiring diagram illustrates the hardware connections between the ESP32-C3 Super Mini, SSD1306 OLED display, DS3231 RTC module, DHT11 temperature and humidity sensor, and TTP223 touch sensor.
+
+<p align="center">
+  <img src="Project-Images/vortex-smart-clock-wiring-diagram.png" alt="Vortex ESP32-C3 Smart Clock Wiring Diagram" width="100%">
+</p>
+
+**Important:** Verify the pin connections, module supply voltages, and logic levels before powering the circuit. ESP32-C3 GPIO pins are not 5 V tolerant.
 
 ## 👆 Touch Controls
 
