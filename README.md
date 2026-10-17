@@ -24,6 +24,7 @@ The project demonstrates the practical integration of microcontrollers, sensors,
 - [Wi-Fi and Time Synchronization](#-wi-fi-and-time-synchronization)
 - [Software Requirements](#-software-requirements)
 - [Installation and Setup](#-installation-and-setup)
+- [Project Images](#-project-images)
 - [Applications](#-applications)
 - [Future Improvements](#-future-improvements)
 - [Troubleshooting](#-troubleshooting)
@@ -230,6 +231,20 @@ The following headers are provided by the ESP32 Arduino core or standard develop
 7. Open Serial Monitor at **115200 baud** to check initialization and diagnostic messages.
 
 Verify OLED initialization, RTC operation, DHT11 readings, touch response, Wi-Fi startup, and NTP synchronization where network connectivity is available.
+
+## 📸 Project Images
+
+### 12-Hour Clock Mode
+![12-Hour Clock Mode](Project-Images/clock-12-hour.png)
+
+### 24-Hour Clock Mode
+![24-Hour Clock Mode](Project-Images/clock-24-hour.png)
+
+### Temperature and Humidity
+![Temperature and Humidity](Project-Images/temperature-humidity.png)
+
+### Wi-Fi Connected Status
+![Wi-Fi Connected Status](Project-Images/wifi-connected-status.png)
 
 ## 🎯 Applications
 
